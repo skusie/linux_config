@@ -22,10 +22,10 @@ mkdir -v ~/.config/waybar
 mkdir -v ~/.config/kitty
 
 ln -sv ~/linux_config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
-ln -sv ~/linux_config/hypr/hyprpaper.conf ~/.config/kitty/kitty.conf
+ln -sv ~/linux_config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 ln -sv ~/linux_config/waybar/config ~/.config/waybar/config
 ln -sv ~/linux_config/waybar/style.css  ~/.config/waybar/style.css
-ln -sv ~/linux_config/.conf ~/.config/kitty/kitty.conf
+ln -sv ~/linux_config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
 # "install" vim pluginmanager
 #mkdir -p ~/.vim/autoload
